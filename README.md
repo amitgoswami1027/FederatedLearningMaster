@@ -94,3 +94,4 @@ Differential Privacy describes a promise, made by a holder, or curstor, to a dat
 * https://www.analyticsvidhya.com/blog/2021/05/federated-learning-a-beginners-guide/
 * https://medium.com/@ODSC/what-is-federated-learning-99c7fc9bc4f5
 * https://ai.googleblog.com/2017/04/federated-learning-collaborative.html
+* [TowardDataScience] https://towardsdatascience.com/the-new-dawn-of-ai-federated-learning-8ccd9ed7fc3a
