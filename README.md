@@ -75,15 +75,28 @@ Privacy is preserved if after the analysis, the analyser does not know anything 
 Differential Privacy describes a promise, made by a holder, or curstor, to a data suject and the promise is like this:
 ### "You will not be effected adverserly or otherwise, by allowing your data to be used in any study or analysis, no matter what other studies, datasets or information surces are available."
 
+As per the above defination, we can say that :
+"If we remove a person from the database and query does not changes then that person privacy is full protected."
+
+'''
+### Instructions for launching the exercise notebook
+Join Slack: For support in the projects (both installation and questions you may have), join the Slack group at slack.openmined.org. You may put your questions in the #beginner channel.
+
+The easiest way to install the required libraries is with Conda. Create a new environment, then install the dependencies in that environment. In your terminal:
+conda create -n pysyft python=3
+conda activate pysyft # some older version of conda require "source activate pysyft" instead.
+conda install jupyter notebook
+pip install syft
+pip install numpy
+
+If you have any errors relating to zstd - run the following (if everything above installed fine then skip this step):
+If you are using Windows, I suggest installing Anaconda and using the Anaconda Prompt to work from the command line.
+
+With this environment activated and in the repo directory, launch Jupyter Notebook:
+jupyter notebook
 
 
-
-
-
-
-
-
-
+'''
 
 
 
