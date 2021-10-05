@@ -46,7 +46,7 @@ Be it training, testing, or information privacy, Federated Learning created a ne
 ### Google describes how FL works in this way with respect to mobile phones:
 It works like this: your device downloads the current model, improves it by learning from data on your phone, and then summarizes the changes as a small focused update. Only this update to the model is sent to the cloud, using encrypted communication, where it is immediately averaged with other user updates to improve the shared model. All the training data remains on your device, and no individual updates are stored in the cloud.
 
-# Benifits
+# Benefits
 * FL enables devices like mobile phones to collaboratively learn a shared prediction model while keeping the training data on the device instead of requiring the data to be uploaded and stored on a central server.
 * Moves model training to the edge, namely devices such as smartphones, tablets, IoT, or even “organizations” like hospitals that are required to operate under strict privacy constraints
 * Makes real-time prediction possible, since prediction happens on the device itself. FL reduces the time lag that occurs due to transmitting raw data back to a central server
@@ -101,7 +101,14 @@ Suppose we are taking the random sample for a study who Jaywalked in the populat
 ## Step-02 : If the first coin result is Head, answer Yes or No Honestly.
 ## Step-03 : If the first coin flip is Tail, answer accordingly to the second coin flip.
 
+# Formal Defination of Differential Privacy
+![image](https://user-images.githubusercontent.com/13011167/135975602-9af13b03-73a0-467f-bc0c-b3ff9422c699.png)
 
+## HOW MUCH NOISE SHOULD WE ADD?
+* Type of Noise ( Gaussian/ Laplacian) 
+* Sensitivity of the Query
+* Desired Epsilon
+* Desired Delta
 
 
 
