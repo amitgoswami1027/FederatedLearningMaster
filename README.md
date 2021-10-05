@@ -1,13 +1,5 @@
 # Federated Learning - Distributed Machine Learning !!
-## 0. Federated Learning - ??
-## 1. The Differential Privacy
-## 2. Evaluating the Privacy of a Function.
-## 3. Local and Global Differential Privacy.
-## 4. Differential Privacy of Deep Learning
-## 5. Federated Learning
-## 6. Securing Federated Learning.
-## 7. Encrypted Deep Learning.
-
+#### Federated Learning?| The Differential Privacy|Local and Global Differential Privacy|Differential Privacy of Deep Learning|Federated Learning|Securing Federated Learning|Encrypted Deep Learning.
 
 # Federated Learning !!
 
