@@ -131,3 +131,4 @@ Suppose we are taking the random sample for a study who Jaywalked in the populat
 * [TowardDataScience] https://towardsdatascience.com/the-new-dawn-of-ai-federated-learning-8ccd9ed7fc3a
 * Research Paper : https://arxiv.org/pdf/1902.01046.pdf
 * Anomaly Detection ; https://arxiv.org/pdf/1804.07474.pdf
+* https://www.apheris.com/blog-how-to-choose-the-best-federated-learning-platform-in-2021
