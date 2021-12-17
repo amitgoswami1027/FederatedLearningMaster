@@ -144,6 +144,14 @@ Pysft help to do the remote exeuction for the Federated Machine Learning. How da
 * conda install -c pytorch pytorch torchvision
 * conda install jupyter
 * conda install jupyterlab
+## Kernels for different enviornment
+If you want to have multiple IPython kernels for different virtualenvs or conda environments, you will need to specify unique names for the kernelspecs.
+Make sure you have ipykernel installed in your environment. If you are using pip t install ipykernel in a conda env, make sure pip is installend.
+* source activate test_env
+* conda pip install
+* conda install ipykernel # pip install ipykernel
+* python -m ipykernel install --user --name other-env --display-name "Python(other-env)" 
+*  python -m ip
 * Install Python 3.10.1 : brew install python@3.10.1
 * Install Pysft : pip install syft
 
