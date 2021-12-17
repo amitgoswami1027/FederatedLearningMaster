@@ -1,5 +1,13 @@
 # Federated Learning - Distributed Machine Learning !!
-## Federated Learning?| The Differential Privacy|Local and Global Differential Privacy|Differential Privacy of Deep Learning|Federated Learning|Securing Federated Learning|Encrypted Deep Learning.
+
+# Motivation : Federated Learning 
+A technique for training ML Models on data to which you don’t have access. Instead of taking all the data to the model for training, we will take the model to the data and train it locally where the data lives and upload the model updates to the central server. Upload the ability to predict to the central server without the data.
+FL is one instance of the more general approach of “bringing the code to the data, instead of thedata to the code” and addresses the fundamental problems of privacy, ownership, and locality of data.
+* Mobile Phone : Texting App - Tries to predict the next word that you are trying to predict. ML model which actually does that is actually trained using the FL. When we go home and plug the phone and attach it to WIFI, everyones for a while will do local training of the devices for your own text messages. It will send the slightly smarter model up to the cloud and later you will updated aggregration of everyone else model up to the cloud. Thus giving the smarter model. Nice thing fo this approach is you are able to benefit from the texting model in your phone despite of the fact that you dont generate the enough data to train the data to become it intelligent. 
+* You are able to benefit from the texting data inside your mobiles. You are benefit from this model becoming smart by looking at thousands and millions of other phones without any of these peoples diverging the private information from there phones and without you divering any private information from your phone. [You by yourself not generating enough data to train the model and benefited from the other large group of individuals for making the smarter move.]
+* Texting APP, Car servicing requirements- Predicative Maintance(Toyota can see when the hyundi car break down), Autocomplete use case in browser, Healthcare(Medical Data). 
+* Privacy Preserving Technologies
+* Engineering Constrainst - Reduce the bandwidth cost by doing the training on the local devices. 
 
 # Federated Learning !!
 Federated Learning is born at the intersection of on-device AI, blockchain, and edge computing/IoT. Es ist nich herausfordurung !!
@@ -43,7 +51,7 @@ Federated Learning seems to have a lot of potentials.Not only it secures user se
 
 Be it training, testing, or information privacy, Federated Learning created a new era of secured AI.A good way to tackle this challenge is by defining the Federated Learning problem and designing a data pipeline such that it can be properly productionized.
 
-### Google describes how FL works in this way with respect to mobile phones:
+## Google describes how FL works in this way with respect to mobile phones:
 It works like this: your device downloads the current model, improves it by learning from data on your phone, and then summarizes the changes as a small focused update. Only this update to the model is sent to the cloud, using encrypted communication, where it is immediately averaged with other user updates to improve the shared model. All the training data remains on your device, and no individual updates are stored in the cloud.
 
 # Benefits
@@ -59,6 +67,7 @@ It works like this: your device downloads the current model, improves it by lear
 * Finally, FL helps to protect data generated on a device by sharing model updates such as gradient data instead of raw data. But communicating model updates throughout the training process can still reveal sensitive information, either to a third party, or to the central server.
 
 # What is Differential Privacy !!
+## Federated Learning?| The Differential Privacy|Local and Global Differential Privacy|Differential Privacy of Deep Learning|Federated Learning|Securing Federated Learning|Encrypted Deep Learning.
 Privacy is preserved if after the analysis, the analyser does not know anything about the data in the datasets. They remained "UnObservered".
 
 Differential Privacy describes a promise, made by a holder, or curstor, to a data suject and the promise is like this:
@@ -120,7 +129,23 @@ Suppose we are taking the random sample for a study who Jaywalked in the populat
 
 
 
-
+# Environemnt Preperation 
+Pysft help to do the remote exeuction for the Federated Machine Learning. How data caan be moved across different machines.
+* Create account here : https://app.slack.com/client/T6963A864/slack-connect
+* conda create --name test_env python=3.8
+* source activate test_env
+* source deactivate
+* conda activate test_env
+* conda install numpy
+* conda install pandas
+* conda install matplotlib
+* conda install plotly
+* conda install scikit-learn
+* conda install -c pytorch pytorch torchvision
+* conda install jupyter
+* conda install jupyterlab
+* Install Python 3.10.1 : brew install python@3.10.1
+* Install Pysft : pip install syft
 
 
 
@@ -132,3 +157,4 @@ Suppose we are taking the random sample for a study who Jaywalked in the populat
 * Research Paper : https://arxiv.org/pdf/1902.01046.pdf
 * Anomaly Detection ; https://arxiv.org/pdf/1804.07474.pdf
 * https://www.apheris.com/blog-how-to-choose-the-best-federated-learning-platform-in-2021
+* Federated in Healthcare : https://www.youtube.com/watch?v=z5jJsvvfKbM
