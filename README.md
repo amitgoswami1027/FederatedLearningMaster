@@ -159,6 +159,7 @@ Make sure you have ipykernel installed in your environment. If you are using pip
 
 ## Important Links
 * Federated Leraning Challanges - https://blog.ml.cmu.edu/2019/11/12/federated-learning-challenges-methods-and-future-directions/
+* Federated Learning Challanges research paper: https://arxiv.org/pdf/1908.07873.pdf
 * https://www.analyticsvidhya.com/blog/2021/05/federated-learning-a-beginners-guide/
 * https://medium.com/@ODSC/what-is-federated-learning-99c7fc9bc4f5
 * https://ai.googleblog.com/2017/04/federated-learning-collaborative.html
