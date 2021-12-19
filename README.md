@@ -142,6 +142,7 @@ Pysft help to do the remote exeuction for the Federated Machine Learning. How da
 * conda install plotly
 * conda install scikit-learn
 * conda install -c pytorch pytorch torchvision
+* pip install notebook
 * conda install jupyter
 * conda install jupyterlab
 ## Kernels for different enviornment
@@ -154,6 +155,22 @@ Make sure you have ipykernel installed in your environment. If you are using pip
 *  python -m ip
 * Install Python 3.10.1 : brew install python@3.10.1
 * Install Pysft : pip install syft
+
+# Udemy Course
+https://github.com/Gharibim/federated_learning_course.git
+
+# FEDERATED LEARNING COURSE
+
+[Under the Hood of Deep Learning] 
+* https://towardsdatascience.com/under-the-hood-of-deep-learning-e8bb39aec5d2
+* https://towardsdatascience.com/under-the-hood-of-neural-networks-part-1-fully-connected-5223b7f78528
+* Code : https://github.com/Gharibim/federated_learning_course
+
+
+Research Papers
+Communication Efficient Learning of the Deep Network from the Decentralized Data [http://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf]
+Federated Optimization in Hetergeneous Network
+FedDAME - A Federated Newton-Type Method.
 
 
 
