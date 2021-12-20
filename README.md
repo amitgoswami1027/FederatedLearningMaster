@@ -172,7 +172,9 @@ Communication Efficient Learning of the Deep Network from the Decentralized Data
 Federated Optimization in Hetergeneous Network
 FedDAME - A Federated Newton-Type Method.
 
-
+* [Sensttive Analysis] : https://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf
+* [Differential privacy] : https://medium.com/pytorch/differential-privacy-series-part-1-dp-sgd-algorithm-explained-12512c3959a3
+* [DP]: https://ai.facebook.com/blog/introducing-opacus-a-high-speed-library-for-training-pytorch-models-with-differential-privacy/
 
 ## Important Links
 * Federated Leraning Challanges - https://blog.ml.cmu.edu/2019/11/12/federated-learning-challenges-methods-and-future-directions/
