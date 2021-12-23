@@ -156,10 +156,10 @@ Make sure you have ipykernel installed in your environment. If you are using pip
 * Install Python 3.10.1 : brew install python@3.10.1
 * Install Pysft : pip install syft
 
-# Udemy Course
+
 https://github.com/Gharibim/federated_learning_course.git
 
-# FEDERATED LEARNING COURSE
+# FEDERATED LEARNING 
 
 [Under the Hood of Deep Learning] 
 * https://towardsdatascience.com/under-the-hood-of-deep-learning-e8bb39aec5d2
