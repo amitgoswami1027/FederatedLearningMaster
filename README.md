@@ -168,11 +168,11 @@ https://github.com/Gharibim/federated_learning_course.git
 
 
 Research Papers
-Communication Efficient Learning of the Deep Network from the Decentralized Data [http://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf]
-Federated Optimization in Hetergeneous Network
-FedDAME - A Federated Newton-Type Method.
-
-* [Sensttive Analysis] : https://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf
+* [Google AI Blog - Federated Learning: Collaborative Machine Learning without Centralized Training Data] : https://ai.googleblog.com/2017/04/federated-learning-collaborative.html
+* [Communication Efficient Learning of the Deep Network from the Decentralized Data] : http://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf
+* [Federated Learning -Heterogenous Systems] : https://arxiv.org/pdf/1812.06127.pdf
+* [FedDAME - A Federated Newton-Type Method] : https://arxiv.org/pdf/2001.01920.pdf
+* [Calibrating Noise to Sensitivity in Private Data Analysis] : https://people.csail.mit.edu/asmith/PS/sensitivity-tcc-final.pdf
 * [Differential privacy] : https://medium.com/pytorch/differential-privacy-series-part-1-dp-sgd-algorithm-explained-12512c3959a3
 * [DP]: https://ai.facebook.com/blog/introducing-opacus-a-high-speed-library-for-training-pytorch-models-with-differential-privacy/
 * [DP Library]: https://github.com/pytorch/opacus
