@@ -190,3 +190,4 @@ Research Papers
 * Anomaly Detection ; https://arxiv.org/pdf/1804.07474.pdf
 * https://www.apheris.com/blog-how-to-choose-the-best-federated-learning-platform-in-2021
 * Federated in Healthcare : https://www.youtube.com/watch?v=z5jJsvvfKbM
+* [NVIDIA TUTOTIAL- Federated]: https://resources.nvidia.com/en-us-federated-learning/what-is-it
